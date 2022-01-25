@@ -1,97 +1,176 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
-    />
+<!doctype html>
+<html lang="en">
 
-    <title>reveal.js</title>
+	<head>
+		<meta charset="utf-8">
 
-    <link rel="stylesheet" href="reveal.js/dist/reset.css" />
-    <link rel="stylesheet" href="reveal.js/dist/reveal.css" />
-    <link rel="stylesheet" href="reveal.js/dist/theme/serif.css" id="theme" />
+		<title>reveal.js - Circle Capital SME Lending Platform Demo</title>
+        
 
-    <!-- Theme used for syntax highlighted code -->
-    <link
-      rel="stylesheet"
-      href="reveal.js/plugin/highlight/monokai.css"
-      id="highlight-theme"
-    />
-  </head>
-  <body>
-    <div class="reveal">
-      <div class="slides">
-        <section
-          data-markdown
-          data-separator="-----"
-          data-separator-vertical="---"
-        >
-          <textarea data-template>
-            # Title Page
+		<link rel="stylesheet" href="dist/reset.css">
+		<link rel="stylesheet" href="dist/reveal.css">
+		<link rel="stylesheet" href="dist/theme/moon.css" id="theme">
 
-            ### Date
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="plugin/highlight/monokai.css">
+       
+	</head>
 
-            -----
-            
-            Vertical slides are separated by `- - -`
-            
-            ---
-            
-            Vertical slides are separated by `- - -` .
-            
-            ---
-            
-            Vertical slides are separated by `- - -` ..
+	<body>
+
+   
+
+		<div class="reveal">
+
+			<div class="slides">
+
+
+                <!-- Slides are separated by three dashes (quick 'n dirty regular expression) -->
+                <section data-markdown data-separator="\n---\n" data-separator-vertical="^\n--\n$">
+                    <script type="text/template">
+                        <!-- .slide: style="text-align: center;" -->
+
+                        
+                        <h1>Circle Capital</h1>
+
+                        <h3>SME Lending Platform Demo</h3>
+
+                        <h4> November 2021</h4>
+
+
+                        ---
+
+                        <!-- .slide: style="text-align: center;" -->
+                       
+                        ## FINTECH$^3$
+                        
+                        <center><img class="plain" src= "assets/Trinity.svg" alt="reveal.js logo" style="height: 500px; margin: 0 auto 4rem auto; background: transparent;" class="user-time"></center>
+                       
+                       
+                        ---
+
+                        <!-- .slide: style="text-align: center;" -->
+                        <section data-background-iframe="https://circlecapital.pt" data-background-interactive>
+                            <div style="position: absolute; width: 40%; left: 1px; top: 400px; box-shadow: 0 1px 4px rgba(0,0,0,0.5), 0 5px 25px rgba(0,0,0,0.2); background-color: rgba(0, 0, 0, 0.9); color: #fff; padding: 20px; font-size: 20px; text-align: left;">
+                                <h2>Circle Capital Web Site</h2>
+                                <p>SMEs start by accessing our website where all the relevat info is presented in an appealing way.</p>
+                            </div>
+                        </section>
+
+                        ---
+
+                        <!-- .slide: style="text-align: center;" -->
+                       
+                        ## USER REGISTRATION REQUIRES
+
+                        <center><img class="plain" src= "assets/user.svg" alt="reveal.js logo" style="height: 100px; margin: 0 auto 4rem auto; background: transparent;" class="user-time"></center>
+                       
+
+                        - valid email
+
+                        - valid mobile
+
+                        - valid tax code
+
+                        - accepting terms and conditions
+
+                        
+                        ---
+
+                        <!-- .slide: style="text-align: center;" -->
+
+                        ## ONBOARDING REQUIRES
+
+                        <center><img class="plain" src= "assets/Onboardingtime.svg" alt="reveal.js logo" style="height: 100px; margin: 0 auto 4rem auto; background: transparent;" class="onboarding-time"></center>                 
+
+                        - [Commercial Registry Code (CRC)](https://creditscore.webwise.pt/Content/videos/S-DOC-COM-ACCESSCODE.mp4)
+
+                        - [Official Accountant Contacts (TOC)](https://creditscore.webwise.pt/Content/videos/S-REQ-TOC.mp4)      
+
+                        - [Admistrative data tool collector Installation](https://creditscore.webwise.pt/Content/videos/S-REQ-ADDONS.mp4) 
+                            - [Banco de Portugal](https://creditscore.webwise.pt/Content/videos/S-DOC-BDP.mp4)
+                            - [Segurança Social](https://creditscore.webwise.pt/Content/videos/S-DOC-SS.mp4)
+                            - [Autoridade Tributaria](https://creditscore.webwise.pt/Content/videos/S-DOC-AT.mp4)
+
+
+                        ---
+
+                        <!-- .slide: style="text-align: center;" -->
+
+                        ## DECISION PROCESS
+
+                        <center><img class="plain" src= "assets/Decisiontime.svg" alt="reveal.js logo" style="height: 100px; margin: 0 auto 4rem auto; background: transparent;" class="onboarding-time"></center>
+                        
+                        <center><img class="plain" src= "assets/Decisionprocess.svg" alt="reveal.js logo" style="height: 400px; margin: 0 auto 4rem auto; background: transparent;" class="onboarding-time"></center>
+                        
+
+                        ---
+
+                        <!-- .slide: style="text-align: center;" -->
+
+                        ## COMPLIANCE PROCESS
+
+                        <center><img class="plain" src= "assets/Compliancetime.svg" alt="reveal.js logo" style="height: 100px; margin: 0 auto 4rem auto; background: transparent;" class="onboarding-time"></center>
+                       
+
+                        - [Registo Central do Beneficiario Efetivo (RCBE)](https://creditscore.webwise.pt/Content/videos/S-DOC-RCBE-EXTENSION.mp4)
+                        - [Online KYC with electronic upload of required documents](/Users/francescofranco/Dropbox/lx_partners/Projects/Credimi/KYC/KYC_Main.mp4)
+                        - ESG rating score 
+                       
+
+                        ---
+
+                        <!-- .slide: style="text-align: center;" -->
+
+                        ## CONTRACT
+                        
+                        - automatically generated and sent
+                        - identity and signature require:
+                            1. Lawyer certfification
+
+                             or
+                             
+                            2. Presential signature
+                        - money deployed in borrower account
+
+
+                    </script>
+                </section>
+
+            </div>
+		</div>
+
+		<script src="dist/reveal.js"></script>
+        <script src="plugin/markdown/markdown.js"></script>
+        <script src="plugin/highlight/highlight.js"></script>
+        <script src="plugin/notes/notes.js"></script>
+        <script src="plugin/math/math.js"></script>
+        <script src="plugin/search/search.js"></script>
      
-            -----
-            
-            # title
-            ## skills
-            * one
-            * two
-            * three
-            
-            ## heading
-            8. three
-            1. one
-            1. two
-         
-            
-            -----
-            
+      
+		<script>
 
-            # Questions
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				history: true,
+                center: true,
+                touch: true,
+               
+                math: {
+                    mathjax: 'https://cdn.jsdelivr.net/gh/mathjax/mathjax@2.7.8/MathJax.js',
+                    config: 'TeX-AMS_HTML-full',
+                    // pass other options into `MathJax.Hub.Config()`
+                    TeX: { Macros: { RR: "{\\bf R}" } }
+                    },
+        
+               
+                
 
-            -----
+				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes,RevealMath]
+			});
 
-            ## made with
+		</script>
 
-            #### [reveal.js](https://github.com/hakimel/reveal.js)
-
-            #### [excalidraw](https://github.com/excalidraw/excalidraw)
-
-          </textarea>
-        </section>
-      </div>
-    </div>
-
-    <script src="reveal.js/dist/reveal.js"></script>
-    <script src="reveal.js/plugin/notes/notes.js"></script>
-    <script src="reveal.js/plugin/markdown/markdown.js"></script>
-    <script src="reveal.js/plugin/highlight/highlight.js"></script>
-    <script src="reveal.js/plugin/zoom/zoom.js"></script>
-    <script>
-      // More info about initialization & config:
-      // - https://revealjs.com/initialization/
-      // - https://revealjs.com/config/
-      Reveal.initialize({
-        hash: true,
-
-        // Learn about plugins: https://revealjs.com/plugins/
-        plugins: [RevealMarkdown, RevealHighlight, RevealNotes, RevealZoom],
-      });
-    </script>
-  </body>
+	</body>
 </html>
